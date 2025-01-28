@@ -9,6 +9,7 @@ public class MobileContactDAOImpl implements IMobileContactDAO {
     private static final List<MobileContact> contacts = new ArrayList<>();
     private static Long id = 1L;
 
+
     @Override
     public MobileContact insert(MobileContact mobileContact) {
         mobileContact.setId(id++);
